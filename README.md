@@ -1,1 +1,1 @@
-# CryptoSwiftExamples
+# SwiftCryptoExamples
