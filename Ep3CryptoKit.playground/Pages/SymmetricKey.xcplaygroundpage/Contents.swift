@@ -6,6 +6,7 @@ let password = "P@ssW0rd".data(using: .utf8)!
 
 let data = "This is your data".data(using: .utf8)!
 
+// quando o contador de referência chega a zero, o buffer é zerado para evitar leak de dados
 let key = SymmetricKey(size: .bits256)
 
 let sealedBox = try! AES.GCM.seal(data, using: key)
