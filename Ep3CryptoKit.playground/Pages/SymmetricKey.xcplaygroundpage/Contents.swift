@@ -1,5 +1,5 @@
 //: [Previous](@previous)
-import UIKit
+import Foundation
 import CryptoKit
 
 let password = "P@ssW0rd".data(using: .utf8)!
@@ -21,9 +21,5 @@ let decryptedData = try! AES.GCM.open(sealedBoxToOpen, using: key)
 let decryptedString = String(data: decryptedData, encoding: .utf8)!
 
 print("Dado decriptado: \(decryptedString)")
-
-// Assimetrica
-// Key Derivation
-// HMAC
 
 //: [Next](@next)

@@ -4,5 +4,6 @@
         <page name='Hashing Functions'/>
         <page name='SymmetricKey'/>
         <page name='Assymetric'/>
+        <page name='HMAC'/>
     </pages>
 </playground>
